@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <!-- Feel free to include a different version or framework, this is intended simply to save time -->
+  <!--  <link
+         rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+         crossorigin="anonymous"
+         />-->
+         <!--Importing BootStrap library-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- relative path to where we are generating the css file from the scss internally -->
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <title>MassMutual Code Exercise</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="https://www.massmutual.com/global-images/logo_MM-white.svg" alt="MassMutual logo" />
+    </div>
+  </header>
+  <!--BootStrap Container-->
+  <div class="container">
+    <div class="row">
+      <!--Removing the default padding from bootstrap column with p-0 and m-0-->
+      <div class="col-8 p-0 m-0">
+          <h1>MassMutual</h1>
+          <h2>Coding Exercise</h2>
+          <p>
+            Here is a simple coding exercise for front end development at
+            MassMutual. What we are hoping is that you'll take roughly an
+            hour, two max, to style this page to match the image. Please
+            note that some styles on this page will differ slightly from our
+            live site.Feel Free to use any similar sans serif and serif in
+            this exercise.
+          </p>
+      </div>
+    </div>
+    <div class="row">
+      <!--Using Bootstrap card group to create cards and lay them out-->
+      <div class="card-group">
+        <!--Main card Container-->
+        <div class="card">
+          <!--Image-->
+          <img class="card-img-top" src="http://via.placeholder.com/778x368" alt="Card image cap">
+          <!--Body of the card-->
+          <div class="card-body">
+            <p class="category">CATEGORY</p>
+            <p>
+              <h2>Card Title</h2>
+            </p>
+            <p class="card-text">The title above should use the same style as the h2 at the top
+              of this page but not be an H2 itself.
+            </p>
+          </div>
+          <!-- Footer-->
+          <div class="card-footer">
+            <button type="button" class="btn btn-yellow ">A BUTTON!</button>
+          </div>
+        </div>
+        <!-- Cards 2 and 3 are created similarly below-->
+        <div class="card">
+          <img class="card-img-top" src="http://via.placeholder.com/778x368" alt="Card image cap">
+          <div class="card-body">
+            <p class="category">CATEGORY</p>
+            <p>
+              <h2>Card Title</h2>
+            </p>
+            <p class="card-text">The title above should use the same style as the h2 at the top
+              of this page but not be an H2 itself.
+            </p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-link">A Link!</button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="http://via.placeholder.com/778x368" alt="Card image cap">
+          <div class="card-body">
+            <p class="category">CATEGORY</p>
+            <p>
+              <h2>Card Title</h2>
+            </p>
+            <p class="card-text">The title above should use the same style as the h2 at the top
+              of this page but not be an H2 itself.
+            </p>
+            <p>
+              This card has extra content in it and so its content is taller than other cards
+            </p>
+          </div>
+          <div class="card-footer">
+            <p>Just text</p>
+            <p>legal text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
